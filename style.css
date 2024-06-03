@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    font-family: "Outfit", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+.container{
+    height: 540px;
+    width: 320px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.img-main{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+}
+.img-main:hover{
+    background-color:hsl(178, 100%, 50%) ;
+    opacity: 0.2;
+}
+.inner-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight:normal ;
+}
+
+h2:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%) ;
+}
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+.profile-img{
+    height: 30px;
+    border: solid white;
+    border-radius: 50px;
+    margin-right: 20px;
+    
+}
+hr{
+border: none;
+height: 1px;
+background-color:hsl(215, 32%, 27%);
+}
+
+.div1,.div2{
+    display: flex;
+    align-items: center;
+}
+h4{
+    color: hsl(178, 100%, 50%);
+    
+}
+.div1{
+    justify-content: space-between;
+}
+span{
+    color: white;
+}
+
+span:hover{
+    cursor: pointer;
+    color:  hsl(178, 100%, 50%);
+}
+.svg{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
